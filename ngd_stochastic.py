@@ -169,8 +169,8 @@ for line in f:
     rating = nums[2]
     ObservationX[client][film] = rating
 getAllOmega()
-getNewU()
-getNewV()
+getNewU_stochastic()
+getNewV_stochastic()
 count = 0
 distanceU = norm(U_new- U)
 distanceV = norm(V_new- V)
